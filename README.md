@@ -1,12 +1,27 @@
-## oŒ‡Š²–‚­‚ñ(Event planning and management tool)
+## å‡ºæ¬ å¹¹äº‹ãã‚“(Event planning and management tool)
 
-ƒCƒxƒ“ƒgEˆù‚İ‰ï‚Ì“ú’ö’²®AoŒ‡ŠÇ—‚ğs‚¤uoŒ‡Š²–‚­‚ñv‚ÌPerlAPHP‚Ìƒ\[ƒXƒR[ƒh‚Å‚·B
+ã‚¤ãƒ™ãƒ³ãƒˆãƒ»é£²ã¿ä¼šã®æ—¥ç¨‹èª¿æ•´ã€å‡ºæ¬ ç®¡ç†ã‚’è¡Œã†ã€Œå‡ºæ¬ å¹¹äº‹ãã‚“ã€ã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™ã€‚
 
-ƒfƒUƒCƒ“‚ÍBootstrap3AFont Awesome Icons‚ğg‚Á‚Ä‚¢‚Ü‚·B
+ãƒ‡ã‚¶ã‚¤ãƒ³ã¯Bootstrap3ã€Font Awesome Iconsã‚’ä½¿ã£ã¦ã„ã¾ã™ã€‚
 
-Bootstrap‚Ìƒvƒ‰ƒOƒCƒ“(bootstrap-datetimejsAvalidator.js)‚àg‚í‚¹‚Ä‚¢‚½‚¾‚«‚Ü‚µ‚½B
+Bootstrapã®ãƒ—ãƒ©ã‚°ã‚¤ãƒ³(bootstrap-datetimejsã€validator.js)ã‚‚ä½¿ã‚ã›ã¦ã„ãŸã ãã¾ã—ãŸã€‚
+
+
+### Usage
+
+  - upload all files to the web server
+
+
+### Features
+
+  - written in Perl and PHP
 
 
 ### Demo
 
   - http://kanji.tsukuba42195.top/
+
+
+### Licence
+
+  - MIT
