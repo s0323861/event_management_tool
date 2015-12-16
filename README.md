@@ -24,4 +24,4 @@ Bootstrapのプラグイン(bootstrap-datetimejs、validator.js)も使わせて�
 
 ### Licence
 
-  - MIT
+  - Copyright 2015 Akira Mukai. Licensed under the MIT License
