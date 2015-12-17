@@ -1,6 +1,6 @@
-## 出欠幹事くん(Event planning and management tool)
+## 出欠管理・日程調整ツール for 幹事さん(Event planning and management tool for organizer)
 
-イベント・飲み会の日程調整、出欠管理を行う「出欠幹事くん」のソースコードです。
+イベント・飲み会の日程調整と出欠管理を行うツールのソースコードです。
 
 デザインはBootstrap3、Font Awesome Iconsを使っています。
 
