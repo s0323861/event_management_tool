@@ -46,8 +46,8 @@ my $html = <<HTML;
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="幹事,お助け,webサービス,無料,出欠,宴会,出席簿,パーティー,飲み会,忘年会,新年会,歓迎会,送別会">
-  <meta name="description" content="イベント・歓送迎会・忘年会・新年会・同窓会などの日程調整＆出欠確認を行うツールです。無料・登録不要・使い捨て型のWebサービスです！">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
   <title>出欠幹事くん - レスポンシブな出欠管理・スケジュール調整ツール！</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
@@ -106,6 +106,8 @@ my $html = <<HTML;
 
   .wizard > div.wizard-inner {
       position: relative;
+      background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png);
+      background-size: 30%;
   }
 
   .connecting-line {
@@ -275,9 +277,9 @@ my $html = <<HTML;
   </div>
 </header>
 
+<section style="background:#efefe9;">
 <div class="container">
     <div class="row">
-        <section>
         <div class="wizard">
             <div class="wizard-inner">
                 <div class="connecting-line"></div>
@@ -331,7 +333,7 @@ my $html = <<HTML;
                 </div>
 
                 <div class="tab-pane" role="tabpanel" id="step2">
-                    <h3 class="head text-center">Step 1</h3>
+                    <h3 class="head text-center"><span class="label label-danger">Step 1</span></h3>
 
                     <form role="form" class="form-horizontal">
 
@@ -356,7 +358,7 @@ my $html = <<HTML;
 
 
                 <div class="tab-pane" role="tabpanel" id="step3">
-                    <h3 class="head text-center">Step 2</h3>
+                    <h3 class="head text-center"><span class="label label-danger">Step 2</span></h3>
 
                     <div class="col-sm-6 col-sm-offset-3">
 
@@ -421,7 +423,6 @@ my $html = <<HTML;
                 <div class="clearfix"></div>
             </div>
         </div>
-        </section>
     </div>
 
     <hr>
@@ -438,14 +439,15 @@ my $html = <<HTML;
     </footer>
 
 </div>
+</section>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./js/moment.js"></script>
-<script type="text/javascript" src="./js/moment-with-locales.js"></script>
-<script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="./js/default.js"></script>
-<script type="text/javascript" src="./js/validator.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/moment.js"></script>
+<script src="./js/moment-with-locales.js"></script>
+<script src="./js/bootstrap-datetimepicker.js"></script>
+<script src="./js/default.js"></script>
+<script src="./js/validator.js"></script>
 
 </body>
 </html>
