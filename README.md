@@ -1,16 +1,16 @@
 ## 出欠管理・日程調整ツール for 幹事さん(Event planning and management tool for organizer)
 
-イベント・飲み会の日程調整と出欠管理を行うツールのソースコードです。
+イベント・飲み会の日程調整と出欠管理を行なうツールのソースコードです。
 
-デザインはBootstrap3、Font Awesome Iconsを使っています。
+デザインはBootstrap3、DatetimePicker、Font Awesome Iconsを使っています。
 
-Bootstrapのプラグイン(bootstrap-datetimejs、validator.js)も使わせていただきました。
+Bootstrapのプラグイン(bootstrap-datetime.js、validator.js)も使わせていただきました。
 
 
 ### Usage
 
   - upload all files to the web server
-
+  - dataという名前のフォルダをindex.cgiと同じ階層に作ってください。そのフォルダ内にイベントごとにテキストファイルが作られます。
 
 ### Features
 
@@ -19,9 +19,9 @@ Bootstrapのプラグイン(bootstrap-datetimejs、validator.js)も使わせて�
 
 ### Demo
 
-  - http://kanji.tsukuba42195.top/
+  - http://s0323861.moo.jp/kanji/
 
 
 ### Licence
 
-  - Copyright 2015 Akira Mukai. Licensed under the MIT License
+  - Copyright 2015-2021 Akira Mukai. Licensed under the MIT License
