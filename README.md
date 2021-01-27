@@ -19,7 +19,7 @@ Bootstrapのプラグイン(bootstrap-datetime.js、validator.js)も使わせて
 
 ### Demo
 
-  - http://s0323861.moo.jp/kanji/
+  - http://s0323861.moo.jp/kanjikun/
 
 
 ### Licence
