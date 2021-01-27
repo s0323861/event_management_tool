@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 
 use Encode qw(is_utf8);
 use CGI qw(:standard);
@@ -46,9 +46,9 @@ my $html = <<HTML;
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <title>出欠幹事くん - レスポンシブな出欠管理・スケジュール調整ツール！</title>
+  <meta name="keywords" content="出欠管理,ツール,使い捨て,webサービス">
+  <meta name="description" content="結婚式の２次会、同窓会、歓送迎会、忘年会、新年会、飲み会、オフ会などの参加者の出欠をとるwebサービスです。">
+  <title>幹事くん - イベントの出欠管理・スケジュール調整ツール</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap-datetimepicker.css">
@@ -261,7 +261,7 @@ my $html = <<HTML;
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="./" class="navbar-brand"><i class="fa fa-calendar-o"></i> 出欠幹事くん</a>
+        <a href="./" class="navbar-brand"><i class="fa fa-calendar-o"></i> 幹事くん</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -321,9 +321,9 @@ my $html = <<HTML;
 
             <div class="tab-content">
                 <div class="tab-pane active" role="tabpanel" id="step1">
-                    <h3 class="head text-center">出欠幹事くんにようこそ <span style="color:#f48260;"><i class="glyphicon glyphicon-heart"></i></span></h3>
+                    <h3 class="head text-center">「幹事くん」にようこそ <span style="color:#f48260;"><i class="glyphicon glyphicon-heart"></i></span></h3>
                       <p class="text-center">
-                          出欠幹事くんはイベント・歓送迎会・忘年会・新年会・同窓会などの日程調整＆出欠確認を行うツールです。<br>無料・登録不要・使い捨て型のWebサービスです！
+                          「幹事くん」はイベント・歓送迎会・忘年会・新年会・同窓会などの日程調整＆出欠確認を行うツールです。<br>無料・登録不要・使い捨て型のWebサービスです！
                       </p>
           
                     <ul class="list-inline text-center">
@@ -431,7 +431,7 @@ my $html = <<HTML;
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>Developed by Akira Mukai 2015</p>
+                <p>Developed by Akira Mukai 2021</p>
             </div>
             <!-- /.col-lg-12 -->
         </div>
