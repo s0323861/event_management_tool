@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 
 use Encode qw(is_utf8);
 use CGI qw(:standard);
@@ -284,7 +284,7 @@ my $html = <<HTML;
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>出欠幹事くん</title>
+  <title>幹事くん</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -340,7 +340,7 @@ my $html = <<HTML;
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="./" class="navbar-brand"><i class="fa fa-calendar-o"></i> 出欠幹事くん</a>
+        <a href="./" class="navbar-brand"><i class="fa fa-calendar-o"></i> 幹事くん</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -554,7 +554,7 @@ $html .= <<HTML;
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Akira Mukai 2015</p>
+                    <p>Copyright &copy; Akira Mukai 2021</p>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
