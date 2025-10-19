@@ -19,9 +19,9 @@ Bootstrapのプラグイン(bootstrap-datetime.js、validator.js)も使わせて
 
 ### Demo
 
-  - http://s0323861.moo.jp/kanjikun/
+  - https://tsukuba42195.sakura.ne.jp/kanjikun/
 
 
 ### Licence
 
-  - Copyright 2015-2021 Akira Mukai. Licensed under the MIT License
+  - Copyright 2015-2025 Akira Mukai. Licensed under the MIT License
